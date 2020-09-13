@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgcake"
+    tools:context=".TwoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="226dp"
+        android:layout_height="292dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/cake" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="245dp"
+        android:layout_height="78dp"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Kasama Chaitrong NO:613020507-1"
+        android:textColor="#F3FFFFFF"
+        android:textSize="25sp" />
+
+
+    <Button
+        android:id="@+id/btnClickFragTwo"
+        android:layout_below="@+id/text"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="#0D47A1"
+        android:textColor="#F3FFFFFF"
+        android:text="GO TO MY FRAGMENT"/>
+
+</RelativeLayout>
